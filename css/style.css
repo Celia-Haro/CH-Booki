@@ -171,7 +171,6 @@ input.search::placeholder {
 /******** Filtres ***********/
 
 .filter {
-  width: 758px;
   /* height: 50px; */
   display: flex;
   margin-top: 35px;
@@ -198,7 +197,7 @@ input.search::placeholder {
 
 .filter-button i {
   font-size: 22px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .filter-button:hover {
   background-color: #deebff;
@@ -471,7 +470,7 @@ input.search::placeholder {
   }
 
   .activities-cards .card-title {
-    width: 100%;
+    /* width: 100%; */
   }
 }
 
@@ -523,6 +522,7 @@ input.search::placeholder {
 
   .filter-button {
     justify-content: flex-start;
+    padding-left: 20px;
     width: 163px;
     height: 50px;
     font-size: 14px;
@@ -589,7 +589,7 @@ input.search::placeholder {
   /* hostings */
 
   .hostings {
-    background-color: white;
+    background-color: transparent !important;
   }
 
   .hostings-cards a {
@@ -610,12 +610,19 @@ input.search::placeholder {
     flex-direction: column;
     width: 100%;
     gap: 15px;
+    margin: 0;
+  }
+
+  .activities .card-title {
+    margin-left: 0;
+  }
+
+  .activities-cards .card {
+    margin-right: 0;
   }
 
   .activities-cards a {
     height: 141px;
-    gap: 30px;
-    flex: 1;
   }
 
   /**  Footer **/
