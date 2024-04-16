@@ -66,6 +66,10 @@ a {
   font-weight: 700;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 /********************* Header ******************/
 
 /****App-bar****/
@@ -412,7 +416,6 @@ input.search::placeholder {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
   .margin-media {
-    margin-left: 50px;
     margin-right: 50px;
   }
 
@@ -433,6 +436,10 @@ input.search::placeholder {
     width: 100%;
     margin-top: 35px;
     margin-right: 0;
+  }
+
+  .margin30 {
+    margin-top: 30px;
   }
 
   .popular {
@@ -458,6 +465,10 @@ input.search::placeholder {
     font-size: 13px;
   }
 
+  .activities-title {
+    width: auto;
+  }
+
   .activities-cards .card {
     height: 270px;
   }
@@ -472,6 +483,10 @@ input.search::placeholder {
   .activities-cards img {
     width: 100%;
     height: 200px;
+  }
+
+  .margin-media-activities {
+    margin-right: 0;
   }
 }
 
