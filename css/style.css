@@ -492,6 +492,7 @@ input.search::placeholder {
   .app-bar {
     flex-direction: column;
     justify-content: center;
+    height: auto;
   }
 
   .logo-app-bar {
@@ -502,10 +503,13 @@ input.search::placeholder {
 
   .logo-app-bar img {
     margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .lien-nav {
     text-align: center;
+    padding-top: 0;
     padding-bottom: 15px;
   }
 
@@ -513,7 +517,6 @@ input.search::placeholder {
   .lien-nav:hover {
     border-top: none;
     border-bottom: solid 2px var(--main-color);
-    margin-bottom: -15px;
   }
   .nav-app-bar a {
     flex: 1;
