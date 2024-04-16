@@ -197,7 +197,7 @@ input.search::placeholder {
 
 .filter-button i {
   font-size: 22px;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 .filter-button:hover {
   background-color: #deebff;
@@ -411,6 +411,11 @@ input.search::placeholder {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+  .margin-media {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
   .filter {
     flex-direction: column;
   }
@@ -468,10 +473,6 @@ input.search::placeholder {
     width: 100%;
     height: 200px;
   }
-
-  .activities-cards .card-title {
-    /* width: 100%; */
-  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -480,8 +481,14 @@ input.search::placeholder {
     padding: 0;
   }
 
+  .margin-media {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
   /***Header***/
 
+  /*App-bar*/
   .app-bar {
     flex-direction: column;
     justify-content: center;
@@ -499,39 +506,33 @@ input.search::placeholder {
 
   .lien-nav {
     text-align: center;
+    padding-bottom: 15px;
   }
 
   .lien-nav.active,
   .lien-nav:hover {
     border-top: none;
     border-bottom: solid 2px var(--main-color);
-    padding-bottom: 20px;
+    margin-bottom: -15px;
   }
   .nav-app-bar a {
     flex: 1;
   }
 
-  .filter-title {
+  /* Titres */
+  .app-bar {
+    margin-bottom: 35px;
+  }
+
+  .p-margin-top {
+    margin-top: 8px;
+    margin-bottom: 35px;
+  }
+
+  /* Barre de recherche*/
+  .formulaire {
     width: 100%;
-  }
-
-  .block-button {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .filter-button {
-    justify-content: flex-start;
-    padding-left: 20px;
-    width: 163px;
-    height: 50px;
-    font-size: 14px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-
-  .info-bar {
-    width: 100%;
+    margin-top: 0;
   }
 
   .formulaire input {
@@ -542,7 +543,7 @@ input.search::placeholder {
 
   .submit {
     position: absolute;
-    left: 260px;
+    left: 280px;
     width: 49px;
     border: none;
     border-radius: 15px 15px 15px 15px;
@@ -556,6 +557,42 @@ input.search::placeholder {
   .fa-magnifying-glass {
     color: white;
     font-size: 17px;
+  }
+
+  /* Filtres*/
+
+  .filter {
+    margin-top: 20px;
+  }
+  .filter-title {
+    width: 100%;
+  }
+
+  .block-button {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .filter-button {
+    justify-content: flex-start;
+    padding-left: 15px;
+    width: 160px;
+    height: 50px;
+    font-size: 14px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .filter-button i {
+    font-size: 18px;
+  }
+
+  /*Info-Bar*/
+  .info-bar {
+    margin-top: 20px;
+    align-items: center;
   }
 
   /* hostings and popular */
