@@ -596,6 +596,7 @@ input.search::placeholder {
   .info-bar {
     margin-top: 20px;
     align-items: center;
+    margin-bottom: 20px;
   }
 
   /* hostings and popular */
@@ -611,6 +612,7 @@ input.search::placeholder {
   .popular {
     flex-direction: column;
     width: 100%;
+    margin-top: 0;
   }
 
   .popular-cards {
@@ -620,11 +622,6 @@ input.search::placeholder {
   .popular-cards a {
     width: 100%;
   }
-
-  /* .popular-cards .card-content {
-    justify-content: space-between;
-    align-content: space-between;
-  } */
 
   /* hostings */
 
@@ -642,15 +639,19 @@ input.search::placeholder {
 
   /* activities */
   .activities {
-    width: 100%;
+    /* width: 100%; */
     justify-content: center;
   }
 
+  .margin-media-activities {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
   .activities-cards {
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
     gap: 15px;
-    margin: 0;
+    /* margin: 0; */
   }
 
   .activities .card-title {
