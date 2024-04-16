@@ -518,6 +518,11 @@ input.search::placeholder {
     border-top: none;
     border-bottom: solid 2px var(--main-color);
   }
+
+  .nav-app-bar {
+    width: 100%;
+  }
+
   .nav-app-bar a {
     flex: 1;
   }
@@ -602,6 +607,7 @@ input.search::placeholder {
   /* hostings and popular */
   .hostings-and-popular {
     flex-direction: column-reverse;
+    gap: 15px;
   }
 
   .hostings-and-popular section {
@@ -619,6 +625,10 @@ input.search::placeholder {
     flex-wrap: wrap;
   }
 
+  .popular-cards .card {
+    margin-top: 15px;
+  }
+
   .popular-cards a {
     width: 100%;
   }
@@ -627,10 +637,19 @@ input.search::placeholder {
 
   .hostings {
     background-color: transparent !important;
+    margin-top: 0;
+    gap: 15px;
+  }
+
+  .hostings-cards {
+    margin-top: 0;
   }
 
   .hostings-cards a {
     width: 100%;
+    height: auto;
+    gap: 15px;
+    margin-top: 0;
   }
 
   .hostings-cards a img {
@@ -639,8 +658,8 @@ input.search::placeholder {
 
   /* activities */
   .activities {
-    /* width: 100%; */
     justify-content: center;
+    margin-top: 35px;
   }
 
   .margin-media-activities {
@@ -649,9 +668,7 @@ input.search::placeholder {
   }
   .activities-cards {
     flex-direction: column;
-    /* width: 100%; */
     gap: 15px;
-    /* margin: 0; */
   }
 
   .activities .card-title {
