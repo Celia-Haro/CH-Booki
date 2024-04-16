@@ -293,6 +293,10 @@ input.search::placeholder {
   display: inline;
 }
 
+.margin30 {
+  margin-top: 30px;
+}
+
 /****** Populaires ***********/
 .popular {
   width: 429px;
@@ -436,10 +440,6 @@ input.search::placeholder {
     width: 100%;
     margin-top: 35px;
     margin-right: 0;
-  }
-
-  .margin30 {
-    margin-top: 30px;
   }
 
   .popular {
