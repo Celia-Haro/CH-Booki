@@ -163,14 +163,14 @@ input.search::placeholder {
   background-color: var(--main-color);
   border-radius: 0 15px 15px 0;
 }
-
+/* 
 .submit i,
 .submit .submit-button-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 /******** Filtres ***********/
 
