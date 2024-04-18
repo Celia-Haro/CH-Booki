@@ -481,12 +481,7 @@ input.search::placeholder {
     width: auto;
   }
 
-  .activities-cards .card {
-    height: 270px;
-  }
-
   .activities-cards a {
-    height: 270px;
     gap: 30px;
     flex: 1;
     justify-content: space-between;
