@@ -241,7 +241,7 @@ input.search::placeholder {
 
 /****** Hebergements ***********/
 .hostings {
-  width: 871px;
+  width: 67%;
   margin-right: 30px;
 }
 
@@ -251,6 +251,10 @@ input.search::placeholder {
   justify-content: space-between;
 }
 
+.hostings-cards a {
+  width: 30%;
+}
+
 .hostings-cards .card {
   display: flex;
   flex-direction: column;
@@ -258,7 +262,6 @@ input.search::placeholder {
 }
 
 .hostings-cards img {
-  width: 233px;
   height: 124px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -299,7 +302,7 @@ input.search::placeholder {
 
 /****** Populaires ***********/
 .popular {
-  width: 429px;
+  width: 33%;
 }
 
 .popular-title {
