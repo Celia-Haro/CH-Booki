@@ -115,7 +115,7 @@ a {
 
 /**** Formulaire de recherche ****/
 
-.formulaire {
+.search-form {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -151,31 +151,24 @@ input.search::placeholder {
 }
 
 .submit {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 132px;
   height: 49px;
   border: solid 1px #f2f2f2;
   color: white;
   background-color: var(--main-color);
   border-radius: 0 15px 15px 0;
 }
-/* 
-.submit i,
-.submit .submit-button-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
+
+.submit-icon {
+  display: none;
+}
 
 /******** Filtres ***********/
 
 .filter {
-  /* height: 50px; */
   display: flex;
   margin-top: 35px;
 }
@@ -189,7 +182,6 @@ input.search::placeholder {
   align-items: center;
   justify-content: center;
   margin-left: 15px;
-  /* width: 167px; */
   height: 50px;
   font-size: 17px;
   font-weight: 700;
@@ -294,7 +286,7 @@ input.search::placeholder {
 }
 
 .hostings-cards {
-  display: inline;
+  display: flex;
 }
 
 .margin30 {
@@ -557,27 +549,31 @@ input.search::placeholder {
   }
 
   /* Barre de recherche*/
-  .formulaire {
+  .search-form {
     width: 100%;
     margin-top: 0;
   }
 
-  .formulaire input {
+  .search-form input {
     text-align: left;
     padding-left: 20px;
     border-right: 0;
   }
 
+  .search {
+    width: 64%;
+  }
   .submit {
-    position: absolute;
-    left: 280px;
     width: 49px;
     border: none;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0px 4px 4px 0px #00000040;
   }
 
-  .submit-button-text {
+  .submit-icon {
+    display: block;
+  }
+  .submit-text {
     display: none;
   }
 
