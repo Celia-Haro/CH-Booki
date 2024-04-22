@@ -554,7 +554,8 @@ input.search::placeholder {
 
   /* Barre de recherche*/
   .search-form {
-    width: 100%;
+    /* width: 100%; */
+    width: 95%;
     margin-top: 0;
   }
 
