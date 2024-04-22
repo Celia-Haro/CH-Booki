@@ -433,9 +433,13 @@ input.search::placeholder {
     flex-direction: column;
   }
 
+  .block-button {
+    margin-right: 0;
+    gap: 10px;
+  }
+
   .filter-button {
     margin-left: 0;
-    margin-right: 15px;
   }
 
   .hostings-and-popular {
