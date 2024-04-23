@@ -102,13 +102,13 @@ a {
   justify-content: space-around;
 }
 
-.lien-nav {
+.link-nav {
   line-height: 18.78px;
   padding: 20px;
 }
 
-.lien-nav.active,
-.lien-nav:hover {
+.link-nav.active,
+.link-nav:hover {
   color: var(--main-color);
   border-top: solid 2px var(--main-color);
 }
@@ -524,14 +524,14 @@ input.search::placeholder {
     padding-bottom: 30px;
   }
 
-  .lien-nav {
+  .link-nav {
     text-align: center;
     padding-top: 0;
     padding-bottom: 15px;
   }
 
-  .lien-nav.active,
-  .lien-nav:hover {
+  .link-nav.active,
+  .link-nav:hover {
     border-top: none;
     border-bottom: solid 2px var(--main-color);
   }
