@@ -252,6 +252,7 @@ input.search::placeholder {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
+  height: 207px;
 }
 
 .hostings-cards img {
@@ -369,6 +370,7 @@ input.search::placeholder {
 
 .activities-cards .card {
   padding: 0; /* Enlève le padding entre la carte et l'image * */
+  height: 100%;
 }
 
 .activities-cards img {
