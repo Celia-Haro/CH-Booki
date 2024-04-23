@@ -113,7 +113,7 @@ a {
   border-top: solid 2px var(--main-color);
 }
 
-/**** Formulaire de recherche ****/
+/**** Search form ****/
 
 .search-form {
   display: flex;
@@ -166,7 +166,7 @@ input.search::placeholder {
   display: none;
 }
 
-/******** Filtres ***********/
+/******** Filters ***********/
 
 .filter {
   display: flex;
@@ -218,7 +218,7 @@ input.search::placeholder {
   margin-right: 10px;
 }
 
-/****** Hebergements And Populaires ***********/
+/****** Hostings And Popular ***********/
 .hostings-and-popular {
   display: flex;
   justify-content: space-between;
@@ -232,7 +232,7 @@ input.search::placeholder {
   margin-top: 30px;
 }
 
-/****** Hebergements ***********/
+/****** Hostings ***********/
 .hostings {
   width: 67%;
   margin-right: 30px;
@@ -294,7 +294,7 @@ input.search::placeholder {
   margin-top: 30px;
 }
 
-/****** Populaires ***********/
+/****** Popular ***********/
 .popular {
   width: 33%;
 }
