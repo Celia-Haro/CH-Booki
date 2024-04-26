@@ -132,7 +132,7 @@ a {
   width: 48px;
   border: solid 1px #f2f2f2;
   border-radius: 15px 0 0 15px;
-  background-color: #f2f2f2;
+  background-color: var(--main-bg-color);
 }
 
 .logo-location i {
@@ -196,7 +196,7 @@ input.search::placeholder {
   margin-right: 10px;
 }
 .filter-button:hover {
-  background-color: #deebff;
+  background-color: var(--filter-bg-color);
 }
 
 /**** Info-bar ****/
@@ -395,7 +395,7 @@ input.search::placeholder {
 .footer {
   display: flex;
   justify-content: flex-start;
-  background-color: #f2f2f2;
+  background-color: var(--main-bg-color);
   margin-top: 35px;
   box-sizing: border-box;
 }
