@@ -107,7 +107,6 @@ a {
   padding: 20px;
 }
 
-.link-nav.active,
 .link-nav:hover {
   color: var(--main-color);
   border-top: solid 2px var(--main-color);
@@ -530,7 +529,6 @@ input.search::placeholder {
     padding-bottom: 15px;
   }
 
-  .link-nav.active,
   .link-nav:hover {
     border-top: none;
     border-bottom: solid 2px var(--main-color);
