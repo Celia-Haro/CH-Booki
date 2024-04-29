@@ -368,7 +368,7 @@ input.search::placeholder {
 }
 
 .activities-cards .card {
-  padding: 0; /* Enlève le padding entre la carte et l'image * */
+  padding: 0;
   height: 100%;
 }
 
